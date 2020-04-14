@@ -75,7 +75,7 @@ Au niveau du fichier de configuration mviewer, il est nécessaire de faire les a
 .. code-block:: bash
 
     type="customlayer" vectorlegend="true" url="https://geobretagne.fr/pub/mviewer-formation/exemples/customlayers/auto_ecole.js" 
-    searchable="true" searchengine="fuse" fusesearchkeys="NOM" fusesearchresult="{{NOM}} - {{TYPE}}"
+    searchable="true" searchengine="fuse" fusesearchkeys="NOM" fusesearchresult="{{NOM}} - {{TYPE}}" fusesearchthreshold="0.5"
 
 * ``type`` : mettre customlayer
 * ``vectorlegend`` : activer l'affichage de la légende saisie dans le fichier javascript
@@ -84,5 +84,5 @@ Au niveau du fichier de configuration mviewer, il est nécessaire de faire les a
 * ``searchengine`` : activer le mode de recherche fuse
 * ``fusesearchkeys`` : champ dans lequel on va effectuer la recherche. Possible sur plusieurs champs (exemple : "NOM,TYPE")
 * ``fusesearchresult`` : expression d'affichage du résultat de la recherche
-* ``fusesearchthreshold`` : seuil permettant de définir des résultat strict (1) ou approximatif (0)
+* ``fusesearchthreshold`` : seuil permettant de définir des résultat strict (1) ou approximatif (0) - optionnel
 
