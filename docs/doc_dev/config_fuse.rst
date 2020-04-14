@@ -84,4 +84,5 @@ Au niveau du fichier de configuration mviewer, il est nécessaire de faire les a
 * ``searchengine`` : activer le mode de recherche fuse
 * ``fusesearchkeys`` : champ dans lequel on va effectuer la recherche. Possible sur plusieurs champs (exemple : "NOM,TYPE")
 * ``fusesearchresult`` : expression d'affichage du résultat de la recherche
+* ``fusesearchthreshold`` : seuil permettant de définir des résultat strict (1) ou approximatif (0).
 
