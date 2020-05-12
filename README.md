@@ -1,7 +1,9 @@
 # mviewer.doc
 **mviewer** documentation.
 
-This documentation is based on the two following free and open-source tools :
+IMPORTANT ! Documentation is now in mviewer repository : https://github.com/geobretagne/mviewer/tree/develop/docs
+
+See https://github.com/geobretagne/mviewer/issues/289
 
 * Sphinx : http://www.sphinx-doc.org/en/stable/
 * ReadTheDocs : https://readthedocs.org/
